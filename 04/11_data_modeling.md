@@ -56,7 +56,7 @@ PostgreSQLの場合，
 ### 答案
 
 「天気」は日記に従属，「職業」は人に従属しているので，それぞれを`diaries`, `users`テーブルに属性として与えればよい．
-
+<br>
 1. `users`テーブルの作成
 
 `CREATE TABLE users (userid SERIAL PRIMARY KEY, name VARCHAR(16), gender CHAR(1), job VARCHAR(16));`
