@@ -56,7 +56,9 @@ PostgreSQLの場合，
 ### 答案
 
 「天気」は日記に従属，「職業」は人に従属しているので，それぞれを`diaries`, `users`テーブルに属性として与えればよい．
+
 <br>
+
 1. `users`テーブルの作成
 
 `CREATE TABLE users (userid SERIAL PRIMARY KEY, name VARCHAR(16), gender CHAR(1), job VARCHAR(16));`
@@ -64,6 +66,7 @@ PostgreSQLの場合，
 という感じに追加する．職業は16文字程度あれば収まると想定
 
 <br>
+
 2. ユーザ情報の挿入
 
 ```
@@ -75,6 +78,7 @@ INSERT INTO users (name, gender, job) VALUES ('石垣高雄', '男', '家事手�
 という感じに挿入する
 
 <br>
+
 3. `diaries`テーブルの作成
 
 `CREATE TABLE diaries (id SERIAL PRIMARY KEY, write_date DATE, body TEXT, whether CHAR(1), userid INTEGER);`
@@ -89,6 +93,7 @@ INSERT INTO users (name, gender, job) VALUES ('石垣高雄', '男', '家事手�
 という感じに一文字で想定
 
 <br>
+
 4. 日記の挿入
 
 ```
@@ -98,7 +103,9 @@ INSERT INTO diaries (write_date, body, whether, userid) VALUES ('2018-02-26', '�
 ```
 
 という感じに挿入する．
+
 <br>
+
 5. 結果
 
 ```
