@@ -1,10 +1,12 @@
 # Data Modeling for RDBMS (in Japanese)
 
 ## 学習メモ（自分用）
+
 個人的に必要な箇所をメモ書きする．大括弧[]は，11節の各見出しに対応．
 
 
 ### [人のテーブルを作ろう]
+
 まずは，一意である情報に主キーを設定する．
 ここで，**人のテーブルを作る際，「名前」に主キーを設定するのは筋が良くない**
 
@@ -16,6 +18,7 @@ PostgreSQLの場合，
 `CREATE TABLE`（テーブル作成）時に，`SERIAL`型で指定の変数（例　userid）のIDを自動作成し，`PRIMARY KEY`（主キー）を設定する．
 
 各種型の説明：
+
 - `VARCHAR(16)`
     - VAR + CHAR(16)ということ．つまり，最大16文字の可変長文字列型を定義
 - `CHAR(1)`
@@ -26,11 +29,13 @@ PostgreSQLの場合，
 テーブルの定義を終えたら，各種データを入れていく．10節学習した`INSERT INTO`句を使う．
 
 ### [日記のテーブルをつくる]
+
 - 日付は重複する場合があるから主キーになりえない
     - IDを作成する
 - 日記内で「誰が書いたか」を表現するために，[人のテーブルを作ろう]で作成した`userid`情報を保存すれば良い．
 
 ### [2つのテーブルを確認しよう]
+
 確認は，おなじみの
 `SELECT * from <確認したいテーブル名>`
 でできる．
@@ -41,12 +46,15 @@ PostgreSQLの場合，
 **テーブルの結合**という操作が必要になる．これは次回(12節)で解説される．
 
 ## 練習問題
+
 「天気」，「職業」という項目を追加せよ．データモデリングの観点から2属性がどのようなものか考え，正しいテーブルに，正しいデータ型で反映すること．
 
 ### 答案
+
 「天気」は日記に従属，「職業」は人に従属しているので，それぞれを`diaries`, `users`テーブルに属性として与えればよい．
 
 1. `users`テーブルの作成
+
 `CREATE TABLE users (userid SERIAL PRIMARY KEY, name VARCHAR(16), gender CHAR(1), job VARCHAR(16));`
 
 という感じに追加する．職業は16文字程度あれば収まると想定
@@ -62,6 +70,7 @@ INSERT INTO users (name, gender, job) VALUES ('石垣高雄', '男', '家事手�
 という感じに挿入する
 
 3. `diaries`テーブルの作成
+
 `CREATE TABLE diaries (id SERIAL PRIMARY KEY, write_date DATE, body TEXT, whether CHAR(1), userid INTEGER);`
 
 - whether
@@ -108,6 +117,7 @@ INSERT INTO diaries (write_date, body, whether, userid) VALUES ('2018-02-26', '�
 
 
 ## 疑問点や不満点等
+
 この節は全体的に，簡単に説明しようとして逆にわかりにくくなっている感，説明不足で混乱しがちな箇所がある．
 
 [1.エンティティを決める]の解説がよくわからない
