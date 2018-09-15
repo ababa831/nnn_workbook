@@ -92,9 +92,6 @@ INSERT INTO users (name, gender, job) VALUES ('石垣高雄', '男', '家事手�
 
 という感じに一文字で想定
 
-追記：
-
-
 <br>
 
 4. 日記の挿入
