@@ -92,6 +92,9 @@ INSERT INTO users (name, gender, job) VALUES ('石垣高雄', '男', '家事手�
 
 という感じに一文字で想定
 
+追記：
+
+
 <br>
 
 4. 日記の挿入
@@ -128,7 +131,15 @@ INSERT INTO diaries (write_date, body, whether, userid) VALUES ('2018-02-26', '�
 (3 rows)
 ```
 
+### 模範解答に対する改善点
 
+大枠の考え方は正しいが，以下が不足している．
+
+- 既存のテーブルに新たな属性（列）を追加する場合は次のクエリを投げれば良い
+    - `ALTER TABLE <テーブル名> add <追加属性名> <型>`
+    - 例　`ALTER TABLE users add job VARCHAR(16)`
+- `weather` 属性
+    - `晴れのち曇り`とか入れたい人を想定して，もう少し文字列を取るべき．そして可変長するのを忘れずに！
 
 ## 疑問点や不満点等
 
