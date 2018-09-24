@@ -24,8 +24,8 @@ HTML: **H**yper **T**ext **M**arkup **L**anguage
 
 ## 練習問題
 
-ファイル名: `haiku.html`
-タイトル: `高浜虚子の俳句`
+ファイル名: `haiku.html`<br>
+タイトル: `高浜虚子の俳句`<br>
 内容:
 
 ```
