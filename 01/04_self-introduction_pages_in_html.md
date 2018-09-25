@@ -33,7 +33,7 @@
 
 `./04_self-introduction_pages_in_html/self-introduction.html`にある．
 
-![作成例]()
+![作成例](https://github.com/ababa893/nnn_workbook/blob/master/01/04_self-introduction_pages_in_html/self-intro_example.png?raw=true)
 
 ## 気になった点
 
