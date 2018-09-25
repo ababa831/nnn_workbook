@@ -29,11 +29,15 @@
 
 自己紹介ページに，**卒業した縄張り**という名前で，Google Mapsの地図を埋め込んでみよ．
 
-## 答案
+### 答案
 
 `./04_self-introduction_pages_in_html/self-introduction.html`にある．
 
 ![作成例](https://github.com/ababa893/nnn_workbook/blob/master/01/04_self-introduction_pages_in_html/self-intro_example.png?raw=true)
+
+### 模範解答との比較
+
+考え方に相違ない．正解．
 
 ## 気になった点
 
