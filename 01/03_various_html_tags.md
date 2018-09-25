@@ -136,7 +136,7 @@ table>(tr>th*2)+(tr>td*2)*6
     - Windows
     - Mac
     - Linux
-    - スマホ
+- スマホ
     - iOS
     - Android
     - Windows Phone 
