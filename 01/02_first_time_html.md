@@ -22,6 +22,29 @@ HTML: **H**yper **T**ext **M**arkup **L**anguage
 
 等を実現できる．
 
+## 個人的メモ
+
+作成したHTMLをコマンドライン入力でブラウザ表示させる方法．
+
+[参考](https://qiita.com/hkato/items/9ed477788633d1a62a7a)
+
+### MacOSX
+
+```
+$ open hoge.html
+```
+
+### Linux
+
+```
+$ firefox hoge.html &
+$ chrome hoge.html &
+$ opera hoge.html &
+```
+
+等
+
+
 ## 練習問題
 
 ファイル名: `haiku.html`<br>
