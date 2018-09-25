@@ -14,7 +14,7 @@
 
 また，`ul`(順序なしリスト)や`ol`(順序つきリスト)を作成する場合，例えば`ul>li*6`または`ol>li*6`と入力して`Tab`キーを押すことで，6項目分のリストが補完される！
 
-`table`(表)を作成する場合，例えば`table>(tr>th*2)+(tr>td*2)*6`と入力して`Tab`キーを押すことで，見出し・中身2列，6項目分の表を作成可能．詳細は[Table]()を参照．
+`table`(表)を作成する場合，例えば`table>(tr>th*2)+(tr>td*2)*6`と入力して`Tab`キーを押すことで，見出し・中身2列，6項目分の表を作成可能．詳細は[Table](https://github.com/ababa893/nnn_workbook/blob/master/01/03_various_html_tags.md#table%E3%82%BF%E3%82%B0)を参照．
 
 #### コード整形
 
