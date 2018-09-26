@@ -16,7 +16,7 @@ Workbooks in chapter 1 of programming course, [N preparetory school](https://www
 
 ### JavaScript
 
-- [05. First time JavaScript]
+- [05. First time JavaScript](https://github.com/ababa893/nnn_workbook/blob/master/01/05_first_time_javascript.md)
 - [06. Calculations]
 - [07. Operators]
 - [08. Loops]
@@ -30,9 +30,10 @@ Workbooks in chapter 1 of programming course, [N preparetory school](https://www
 - [13. Programming in CSS]
 
 ### Development of Web pages
+
 - [14. Web page planning and design]
 - [15. Development of diagnostic functions]
 - [16. Building diagnostic functions in HTML]
-- [17. Development of tweet functions]
+- [17. Development of a tweet function]
 
 
