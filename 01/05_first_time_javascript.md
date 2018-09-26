@@ -40,8 +40,8 @@ document.write('<h1>JavaScript を学ぼう</h1>');
 上項で作成したJavaScriptのコードを`.js`ファイルに切り分けても同様のコンテンツを作成できる．<br>
 ファイルを切り分けることで，内容の読みやすさがアップ！
 
-1. `.js`ファイルを，上項で作成したHTMLファイルと同一フォルダに作成
-2. `.js`ファイルに，`document.write('<h1>JavaScript を学ぼう</h1>');`のみを記述して保存
+1. `hoge.js`ファイルを，上項で作成したHTMLファイルと同一フォルダに作成
+2. `hoge.js`ファイルに，`document.write('<h1>JavaScript を学ぼう</h1>');`のみを記述して保存
 3. HTMLファイル内の，`script`タグに，`src="hoge.js"`属性を追加
     - はじめから`src`属性を付けたい場合は，`script`入力時に補完候補`script:src`を選択すれば，該当のテンプレートが出る
 
@@ -51,3 +51,15 @@ JavaScriptで記述したWebページが上手く動作しないとき，Chrome�
 
 ## 練習問題
 
+`hoge.js`ファイルの`h1`見出しを表示するコードの下に，ログを表示するコードを記述してWebページに反映させよ．
+
+### 答案
+
+`./05_first_time_javascript/`フォルダ内にある．
+
+結果：<br>
+![結果](https://github.com/ababa893/nnn_workbook/blob/master/01/05_first_time_javascript/05_pratice_answer.png?raw=true)
+
+### 模範解答との比較
+
+考え方に相違ない．正解．
