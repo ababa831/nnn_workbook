@@ -15,3 +15,24 @@ Workbooks in chapter 1 of programming course, [N preparetory school](https://www
 - [04. Self-introduction pages in HTML](https://github.com/ababa893/nnn_workbook/blob/master/01/04_self-introduction_pages_in_html.md)
 
 ### JavaScript
+
+- [05. First time JavaScript]
+- [06. Calculations]
+- [07. Operators]
+- [08. Loops]
+- [09. Collections]
+- [10. Functions]
+- [11. Objects]
+
+### CSS
+
+- [12. First time CSS]
+- [13. Programming in CSS]
+
+### Development of Web pages
+- [14. Web page planning and design]
+- [15. Development of diagnostic functions]
+- [16. Building diagnostic functions in HTML]
+- [17. Development of tweet functions]
+
+
