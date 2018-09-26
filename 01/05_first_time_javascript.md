@@ -23,7 +23,7 @@ ECMA(エクマ) Internationalという団体が標準化
 
 本テキストはES6を扱っている．
 
-###　HTML内にJavaScriptを書いてみる
+### HTML内にJavaScriptを書いてみる
 
 1. `html:5`テンプレート -> langを`ja`に変える
 2. `body`タグ内で`script`と打ち込み，`Tab`キーを押す．
