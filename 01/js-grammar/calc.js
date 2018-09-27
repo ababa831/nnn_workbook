@@ -12,7 +12,7 @@
 
     let c = 22;
     c = 2;
-    document.write('<p>' + c + '</p>');
+    document.write(`<p>${c}</p>`);
 
     // このコードは三角形の面積を求めるプログラムです．
     var w = 3;  // 三角形の頂点
