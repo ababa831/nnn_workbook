@@ -16,7 +16,7 @@ JavaScriptで比較演算子，論理演算子を扱う．他プログラミン�
 
 ### 比較演算子
 
-２つの値が等しいか否かを判定する比較演算子に関して，JavaScriptは **strict(厳密)** と **abstruct(中小的)**な定義がある．
+２つの値が等しいか否かを判定する比較演算子に関して，JavaScriptは **strict(厳密)** と **abstruct(抽象的)** な定義がある．
 
 [参考](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 
