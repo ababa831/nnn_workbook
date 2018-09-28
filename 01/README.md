@@ -19,7 +19,7 @@ Workbooks in chapter 1 of programming course, [N preparetory school](https://www
 - [05. First time JavaScript](https://github.com/ababa893/nnn_workbook/blob/master/01/05_first_time_javascript.md)
 - [06. Calculations](https://github.com/ababa893/nnn_workbook/blob/master/01/06_calculations.md)
 - [07. Operators](https://github.com/ababa893/nnn_workbook/blob/master/01/07_operators.md)
-- [08. Loops]
+- [08. Loops](https://github.com/ababa893/nnn_workbook/blob/master/01/08_loops.md)
 - [09. Collections]
 - [10. Functions]
 - [11. Objects]
