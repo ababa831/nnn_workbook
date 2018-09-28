@@ -21,7 +21,7 @@ Workbooks in chapter 1 of programming course, [N preparetory school](https://www
 - [07. Operators](https://github.com/ababa893/nnn_workbook/blob/master/01/07_operators.md)
 - [08. Loops](https://github.com/ababa893/nnn_workbook/blob/master/01/08_loops.md)
 - [09. Collections](https://github.com/ababa893/nnn_workbook/blob/master/01/09_collections.md)
-- [10. Functions]
+- [10. Functions](https://github.com/ababa893/nnn_workbook/blob/master/01/10_functions.md)
 - [11. Objects]
  
 ### CSS
