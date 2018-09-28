@@ -89,7 +89,7 @@ A.
 - `confirm('引数')` 引数で渡した文字列をダイアログに表示し，OKまたはキャンセルを選択できるようにする．
     - OKの場合は，戻り値が`true`
     - キャンセルの場合は，戻り値が`false`
-- `document.body.onkeypress = stop`; html(document)のbody上で何らかのキーが押されたら，`stop`関数を実行する．
+- `document.body.onkeypress = stop;` html(document)のbody上で何らかのキーが押されたら，`stop`関数を実行する．
     - なぜ条件判定したものに，関数を代入するという表記をするのかが，JavaScript素人的には気持ち悪い．
 
 ## 練習問題
