@@ -67,7 +67,7 @@ var takashiStatus = new takashi();
 console.log(`たかしの身長：${takashiStatus.height}，体重:${takashiStatus.weight}`)
 ```
 
-### `p`タグに`id`属性を不要する理由
+### `p`タグに`id`属性を付与する理由
 
 ```html
 <body>
