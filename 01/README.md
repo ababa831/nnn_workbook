@@ -20,7 +20,7 @@ Workbooks in chapter 1 of programming course, [N preparetory school](https://www
 - [06. Calculations](https://github.com/ababa893/nnn_workbook/blob/master/01/06_calculations.md)
 - [07. Operators](https://github.com/ababa893/nnn_workbook/blob/master/01/07_operators.md)
 - [08. Loops](https://github.com/ababa893/nnn_workbook/blob/master/01/08_loops.md)
-- [09. Collections]
+- [09. Collections](https://github.com/ababa893/nnn_workbook/blob/master/01/09_collections.md)
 - [10. Functions]
 - [11. Objects]
  
