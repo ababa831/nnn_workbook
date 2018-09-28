@@ -1,6 +1,6 @@
 # 09. Collections (in Japanese)
 
-JavaScriptでコレクション．
+JavaScriptでコレクション．必要に応じてメモする．
 
 ## 学習メモ
 
