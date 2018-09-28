@@ -48,7 +48,8 @@ teamMember.age = 10;
 console.log(teamMember.age);
 ```
 
-オブジェクト内に関数を設定も可能．値の部分を無名関数的？に記述する．
+オブジェクト内に関数を設定も可能．値の部分を無名関数的？に記述する．<br>
+(プロパティに変数と関数を定義できるのであれば，クラスみたいな感じ？（素人並感想))
 
 ```javascript
 var teamMember = {
@@ -64,7 +65,7 @@ teamMember.print();
 teamMember.print();
 ```
 
-Q.オブジェクト内であれば，`teamMember.age`を`age`とか`this.age`指定できないの？<br>
+Q.オブジェクト内であれば，`teamMember.age`を`age`とか`this.age`で指定できないの？<br>
 A.
 
 - `age`単体はできない（`Uncaught ReferenceError: age is not defined`）
@@ -73,7 +74,7 @@ A.
 [参考](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/this)
 
 
-(プロパティに変数と関数を定義できるのであれば，クラスみたいな感じ？（素人並感想))
+
 
 ### 時間あてゲーム
 
