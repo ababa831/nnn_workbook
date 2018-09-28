@@ -22,9 +22,9 @@ Workbooks in chapter 1 of programming course, [N preparetory school](https://www
 - [08. Loops](https://github.com/ababa893/nnn_workbook/blob/master/01/08_loops.md)
 - [09. Collections](https://github.com/ababa893/nnn_workbook/blob/master/01/09_collections.md)
 - [10. Functions](https://github.com/ababa893/nnn_workbook/blob/master/01/10_functions.md)
-- [11. Objects]
+- [11. Objects](https://github.com/ababa893/nnn_workbook/blob/master/01/11_objects.md)
  
- 
+
 ### CSS
 
 - [12. First time CSS]
