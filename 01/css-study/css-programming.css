@@ -1,0 +1,7 @@
+.face {
+    color: red; /*darkblue*/
+}
+.back {
+    color: red; /*lightgray*/
+    opacity: 0.4;
+}
