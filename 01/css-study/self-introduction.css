@@ -1,0 +1,11 @@
+body{
+    background-color: lightblue;
+}
+table, td, th {
+    border: double 3px gray;  /*borderの太さはあえてテキストとは別設定*/
+    background-color: white;
+    color: darkblue;
+}
+h3:first-letter {
+    font-size: 1.618em;  /*相対値 1em=100%*/
+}
