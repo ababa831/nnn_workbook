@@ -6,10 +6,10 @@ CSSを学ぶ．
 
 ### CSSとは
 
-Cascading Style Sheets
-    - Cascading: 階段状の滝のような，連鎖的に伝わる
-    - Style: HTML(body)上で表現されるスタイル
-    - Sheet: シート
+Cascading Style Sheets<br>
+- Cascading: 階段状の滝のような，連鎖的に伝わる
+- Style: HTML(body)上で表現されるスタイル
+- Sheet: シート
 
 つまり，HTMLで表現される複数のスタイルが，段階的に引き継がれながら適用されるような概念の言語．
 
