@@ -113,6 +113,10 @@ h3:first-letter {
 - `h3`先頭文字を大きくして，カッコつけた．
     - `font-size`プロパティは黄金比にしてみたら良く見えるかもしれないと思い，値を`1.618em`に設定
 
+### 作成したもの
+
+![cssを設定した自己紹介ページ](https://github.com/ababa893/nnn_workbook/blob/master/01/css-study/css-applied_example.png?raw=true)
+
 ### 模範解答との比較
 
 考え方に相違ない．正解．
