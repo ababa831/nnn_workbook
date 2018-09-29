@@ -83,7 +83,7 @@ rotateHeader: function () {
 };
 ```
 
-何故？`this`がrotateHeaderプロパティ（関数）を指してしまっているから？<br>
+何故？`this`が`rotateHeader`プロパティ（関数）を指してしまっているから？<br>
 `this`の意味がいまいち理解できない．
 
 何れにせよ，値の指定先はしっかり明示したほうが良さそう．
