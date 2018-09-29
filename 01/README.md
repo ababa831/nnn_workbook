@@ -32,7 +32,7 @@ Workbooks in chapter 1 of programming course, [N preparetory school](https://www
 
 ### Development of Web pages
 
-- [14. Web page planning and design]
+- [14. Web page planning and design](https://github.com/ababa893/nnn_workbook/blob/master/01/14_web_page_planning_and_design.md)
 - [15. Development of diagnostic functions]
 - [16. Building diagnostic functions in HTML]
 - [17. Development of a tweet function]
