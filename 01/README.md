@@ -27,7 +27,7 @@ Workbooks in chapter 1 of programming course, [N preparetory school](https://www
 
 ### CSS
 
-- [12. First time CSS]
+- [12. First time CSS](https://github.com/ababa893/nnn_workbook/blob/master/01/12_first_time_css.md)
 - [13. Programming in CSS]
 
 ### Development of Web pages
