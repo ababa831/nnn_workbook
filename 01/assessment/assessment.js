@@ -1,6 +1,46 @@
 (function () {
     'use srtict';
 
+    // HTML側　各種タグのid属性に対応している．
+    const userNameInput = document.getElementById('user-name');
+    const assessmentButton = document.getElementById('assessment');
+    const resultDivided = document.getElementById('result-area');
+    const tweetDivided = document.getElementById('tweet-area');
+
+    /** 
+    * 指定した要素の子供を全て削除
+    * @param {HTMLElement} element HTMLの要素
+    */
+    function removeAllChildren(element) {
+        while (element.firstChild) {
+            element.removeChild(element.firstChild);
+        }
+    }
+
+    // ツイートエリアの子供削除
+    removeAllChildren(tweetDivided);
+
+    assessmentButton.onclick = () => {
+        const userName = userNameInput.value;
+        // 名前がからの場合は処理を終了
+        if (userName.length === 0) {
+            return;
+        }
+
+
+        // 結果表示エリアの作成
+        removeAllChildren(resultDivided);
+        const header = document.createElement('h3');
+        header.innerText = '診断結果';
+        resultDivided.appendChild(header);
+
+        const paragraph = document.createElement('p');
+        const result = assessment(userName);
+        paragraph.innerText = result;
+        resultDivided.appendChild(paragraph);
+
+    }
+
     // 診断結果のパターン
     const answers = [
         '{userName}のいいところは声です。{userName}の特徴的な声は皆を惹きつけ、心に残ります。',
