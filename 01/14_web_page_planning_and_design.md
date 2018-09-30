@@ -117,12 +117,12 @@
 `button`セレクタの`color`プロパティを`#FDFFFF`に指定する．
 
 ```css
-/*buttonセレクタのみ設定*/
+/*buttonセレクタのみ載せる*/
 button {
     padding: 5px 20px;
     background-color: #337AB7;
     border-style: none;
-    color: #FDFFFF;
+    color: #FDFFFF;  /*ここを設定*/
 }
 ```
 ### 模範解答との比較
