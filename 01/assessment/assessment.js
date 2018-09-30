@@ -17,6 +17,13 @@
         }
     }
 
+    // Enter押したら診断できるようにする
+    userNameInput.onkeydown = (event) => {
+        if (event.key == 'Enter') {
+            assessmentButton.onclick();
+        }
+    }
+
     assessmentButton.onclick = () => {
         const userName = userNameInput.value;
         // 名前がからの場合は処理を終了
@@ -36,9 +43,19 @@
         paragraph.innerText = result;
         resultDivided.appendChild(paragraph);
 
-        // ツイートエリアの子供削除
+        // ツイートエリアの作成
         removeAllChildren(tweetDivided);
+        const anchor = document.createElement('a');
+        const hrefVal = 'https://twitter.com/intent/tweet?button_hashtag='
+            + encodeURIComponent('あなたのいいところ')
+            + '&ref_src=twsrc%5Etfw';
+        anchor.setAttribute('href', hrefVal);
+        anchor.className = 'twitter-hashtag-button';
+        anchor.setAttribute('data-text', result);
+        anchor.innerText = 'Tweet #あなたのいいところ';
+        tweetDivided.appendChild(anchor);
 
+        twttr.widgets.load();
     }
 
     // 診断結果のパターン
