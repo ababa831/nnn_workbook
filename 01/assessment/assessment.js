@@ -17,9 +17,6 @@
         }
     }
 
-    // ツイートエリアの子供削除
-    removeAllChildren(tweetDivided);
-
     assessmentButton.onclick = () => {
         const userName = userNameInput.value;
         // 名前がからの場合は処理を終了
@@ -38,6 +35,9 @@
         const result = assessment(userName);
         paragraph.innerText = result;
         resultDivided.appendChild(paragraph);
+
+        // ツイートエリアの子供削除
+        removeAllChildren(tweetDivided);
 
     }
 
