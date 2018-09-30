@@ -106,7 +106,7 @@ result = result.replace(/\{userName\}/g, userName);
 
 ```javascript
 console.assert(
-    example(hoge) === sampleVar,
+    example(hoge) === sampleVal,
     'テスト結果が正しくなかったときに出力されるメッセージ'
 )
 ```
