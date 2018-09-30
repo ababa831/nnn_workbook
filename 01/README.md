@@ -34,7 +34,7 @@ Workbooks in chapter 1 of programming course, [N preparetory school](https://www
 
 - [14. Web page planning and design](https://github.com/ababa893/nnn_workbook/blob/master/01/14_web_page_planning_and_design.md)
 - [15. Development of an assessment function](https://github.com/ababa893/nnn_workbook/blob/master/01/15_development_of_an_assessment_function.md)
-- [16. Building diagnostic functions in HTML]
+- [16. Building an assessment functions in HTML]
 - [17. Development of a tweet function]
 
 
